@@ -1,0 +1,12 @@
+{
+  "name": "shivsaan-site",
+  "version": "1.0.0",
+  "description": "ShivSaan IT Consulting - Static site with Vercel serverless contact",
+  "main": "index.js",
+  "scripts": {
+    "start": "vercel dev"
+  },
+  "dependencies": {
+    "nodemailer": "^6.9.4"
+  }
+}

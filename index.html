@@ -1,0 +1,123 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>ShivSaan IT Consulting — Data & Analytics</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <img src="assets/logo.png" alt="ShivSaan IT Consulting logo" class="logo"/>
+        <div class="brand-text">
+          <h1>ShivSaan <span>IT Consulting</span></h1>
+          <p class="tag">Data & Analytics — Snowflake data engineering & career guidance</p>
+        </div>
+      </div>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#snowflake">Snowflake</a>
+        <a href="#careers">Career Guidance</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact" class="cta">Contact</a>
+      </nav>
+      <button class="mobile-menu" aria-label="menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <h2>Snowflake data engineering & analytics — trusted guidance</h2>
+          <p>Enterprise-grade Snowflake architecture, reliable data pipelines, performance tuning, and career mentorship for data professionals.</p>
+          <a href="#contact" class="btn">Request Consultation</a>
+        </div>
+        <div class="hero-art">
+          <img src="assets/logo.png" alt="logo art" />
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="container section">
+      <h3>About Us</h3>
+      <p>ShivSaan IT Consulting delivers enterprise-grade data engineering and analytics solutions focused on Snowflake. We help organisations build reliable data platforms and help professionals accelerate their careers in data.</p>
+    </section>
+
+    <section id="services" class="container section">
+      <h3>Services</h3>
+      <ul class="services">
+        <li><strong>Snowflake Architecture:</strong> Data platform design, migrations, and best practices.</li>
+        <li><strong>Data Engineering:</strong> ETL/ELT pipelines, data modelling, and automation.</li>
+        <li><strong>Analytics & BI:</strong> Dashboards, KPIs, and reporting strategies.</li>
+        <li><strong>Training & Workshops:</strong> Hands-on Snowflake and analytics upskilling.</li>
+      </ul>
+    </section>
+
+    <section id="snowflake" class="container section">
+      <h3>Data & Analytics — Snowflake Focus</h3>
+      <p>We specialize in Snowflake data engineering: warehouse design, performance tuning, secure data sharing, and cost optimisation. Our approach follows cloud-native best practices and observability for production workloads.</p>
+    </section>
+
+    <section id="careers" class="container section">
+      <h3>Career Guidance & Consultation</h3>
+      <p>One-on-one mentoring, resume & interview prep, role roadmaps, and tailored learning plans for data engineers and analytics professionals.</p>
+    </section>
+
+    <section id="pricing" class="container section">
+      <h3>Pricing</h3>
+      <div class="pricing-grid">
+        <div class="card">
+          <h4>Starter</h4>
+          <p>Advisory call — 1 hour</p>
+          <p class="price">$150</p>
+        </div>
+        <div class="card">
+          <h4>Project</h4>
+          <p>Short-term engagement (4–8 weeks)</p>
+          <p class="price">From $3,500</p>
+        </div>
+        <div class="card">
+          <h4>Enterprise</h4>
+          <p>Long-term partnership & managed engineering</p>
+          <p class="price">Custom pricing</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="blog" class="container section">
+      <h3>Blog</h3>
+      <p>Insights on Snowflake best practices, migration tips, and analytics career advice. (CMS-ready: add posts in /blog folder or connect to a headless CMS.)</p>
+    </section>
+
+    <section id="contact" class="container section contact">
+      <h3>Contact</h3>
+      <p>Reach out for consultation, training, or hiring support.</p>
+      <form id="contactForm">
+        <label>Name<input type="text" id="name" required></label>
+        <label>Email<input type="email" id="email" required></label>
+        <label>Message<textarea id="message" rows="5" required></textarea></label>
+        <button class="btn" type="submit">Send Message</button>
+        <p class="note">Messages will be sent to <strong>shivsaan.services@gmail.com</strong>.</p>
+      </form>
+      <div id="formResult" role="status" aria-live="polite"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; ShivSaan IT Consulting — Data & Analytics. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
